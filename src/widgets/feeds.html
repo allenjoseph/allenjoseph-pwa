@@ -1,7 +1,7 @@
 <template bindable="items">
 	<div class="mdl-cell mdl-cell--4-col" repeat.for="feed of items">
 		<div class="feed-card mdl-card mdl-shadow--2dp">
-			<div class="mdl-card__media">
+			<div if.bind="feed.image" class="mdl-card__media">
 				<img src.bind="feed.image" border="0" alt="">
 			</div>
 			<div class="mdl-card__supporting-text">
