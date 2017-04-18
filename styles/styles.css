@@ -1,37 +1,3 @@
-.aj-layout {
-	background: #F4F4F4;
-	background-image: url(diamond.png);
-}
-
-.page-content {
-	max-width: 1200px;
-	margin: auto;
-}
-
-.feed-card.mdl-card {
-	width: auto;
-}
-
-.feed-card > .mdl-card__media {
-	height: 160px;
-	overflow: hidden;
-}
-
-.feed-card > .mdl-card__media > img{
-	width: 100%;
-}
-
-.feed-card > .mdl-card__supporting-text {
-	background: rgba(255, 255, 255, 0.5);
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
-.feed-card > .mdl-card__menu {
-	color: #fff;
-}
-
-.feed-card > .mdl-card__menu > .mdl-button {
-	background: rgba(255, 255, 255, 0.1);
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
 }

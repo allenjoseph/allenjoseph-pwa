@@ -23,7 +23,8 @@
   "scripts": {
     "prepublish": "typings install",
     "test": "gulp test",
-    "e2e": "gulp serve e2e"
+    "e2e": "gulp serve e2e",
+    "serve": "gulp watch"
   },
   "devDependencies": {
     "aurelia-bundler": "^0.4.0",
@@ -82,7 +83,6 @@
       "fetch": "github:github/fetch@^1.0.0",
       "font-awesome": "npm:font-awesome@4.6.3",
       "jquery": "npm:jquery@^2.2.4",
-      "redpelicans/aurelia-material": "github:redpelicans/aurelia-material@master",
       "text": "github:systemjs/plugin-text@^0.0.8"
     },
     "devDependencies": {}

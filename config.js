@@ -33,7 +33,6 @@ System.config({
     "fetch": "github:github/fetch@1.0.0",
     "font-awesome": "npm:font-awesome@4.6.3",
     "jquery": "npm:jquery@2.2.4",
-    "redpelicans/aurelia-material": "github:redpelicans/aurelia-material@master",
     "text": "github:systemjs/plugin-text@0.0.8",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.4.1"
@@ -49,11 +48,6 @@ System.config({
     },
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
-    },
-    "github:redpelicans/aurelia-material@master": {
-      "google/material-design-lite": "github:google/material-design-lite@1.3.0",
-      "jquery": "github:components/jquery@2.2.4",
-      "lodash": "npm:lodash@3.10.1"
     },
     "github:twbs/bootstrap@3.3.7": {
       "jquery": "npm:jquery@2.2.4"
@@ -203,9 +197,6 @@ System.config({
     },
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
-    },
-    "npm:lodash@3.10.1": {
-      "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:process@0.11.9": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",

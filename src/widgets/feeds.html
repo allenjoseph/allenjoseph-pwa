@@ -1,15 +1,15 @@
 <template bindable="items">
-	<div class="mdl-cell mdl-cell--4-col" repeat.for="feed of items">
-		<div class="feed-card mdl-card mdl-shadow--2dp">
-			<div if.bind="feed.image" class="mdl-card__media">
-				<img src.bind="feed.image" border="0" alt="">
+	<div class="" repeat.for="feed of items">
+		<div class="">
+			<div class="">
+				<img if.bind="feed.image" src.bind="feed.image" border="0" alt="">
 			</div>
-			<div class="mdl-card__supporting-text">
+			<div class="">
 				${feed.title}
 			</div>
-			<div class="mdl-card__menu">
-				<a href.bind="feed.link" target="_blank" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-					<i class="material-icons">link</i>
+			<div class="">
+				<a href.bind="feed.link" target="_blank" class="">
+					<i class="fa fa-external-link-square" aria-hidden="true"></i>
 				</a>
 			</div>
 		</div>
