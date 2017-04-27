@@ -1,0 +1,10 @@
+<template>
+	<div class="">
+		<!-- Title -->
+		<span class="">Allen Joseph</span>
+		<!-- Navigation. We hide it in small screens. -->
+		<nav class="">
+			<a class="" repeat.for="row of router.navigation" href.bind="row.href">${row.title}</a>
+		</nav>
+	</div>
+</template>

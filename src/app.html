@@ -1,28 +1,9 @@
 <template>
-	<!-- Always shows a header, even in smaller screens. -->
-	<div class="">
-		<header class="">
-			<div class="">
-			<!-- Title -->
-			<span class="">Allen Joseph</span>
-			<!-- Add spacer, to align navigation to the right -->
-			<div class=""></div>
-			<!-- Navigation. We hide it in small screens. -->
-			<nav class="">
-				<a class="" repeat.for="row of router.navigation" href.bind="row.href">${row.title}</a>
-			</nav>
-			</div>
-		</header>
-		<div class="">
-			<span class="">Allen Joseph</span>
-			<nav class="">
-				<a class="" repeat.for="row of router.navigation" href.bind="row.href">${row.title}</a>
-			</nav>
-		</div>
-		<main class="">
-			<div class="">
-				<router-view></router-view>
-			</div>
-		</main>
-	</div>
+	<compose view-model="./layout/header"></compose>
+	<nav class="">
+		<a class="" repeat.for="row of router.navigation" href.bind="row.href">${row.title}</a>
+	</nav>
+	<section class="">
+		<router-view></router-view>
+	</section>
 </template>
